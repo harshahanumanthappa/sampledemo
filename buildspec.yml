@@ -11,7 +11,7 @@ phases:
       - echo pre_build
   build:
     commands:
-        - mvn clean prepare-package war:exploded
+      - mvn package
       - echo build
   post_build:
     commands:
