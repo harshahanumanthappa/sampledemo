@@ -1,21 +1,16 @@
+
 version: 0.2
-            
 phases:
-  install:
-    runtime-versions:
-      java: openjdk8
-    commands:
-      - echo install
   pre_build:
     commands:
-      - echo pre_build
+    - echo "Entered the pre-build phase"
   build:
     commands:
-      - echo build
+    - echo "Entered build phase"
+    - mvn clean prepare-package war:exploded
   post_build:
     commands:
-    - mvn package
-      - echo post_build
+    - echo "Entered the post-build phase"
       -mv target/demo ./
 artifacts:
   files:
