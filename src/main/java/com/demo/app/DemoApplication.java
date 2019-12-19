@@ -23,4 +23,16 @@ public class DemoApplication
 		}
 		
 	}
+	
+	@RestController
+	@RequestMapping("/test")
+	public class TestController 
+	{	
+		@GetMapping
+		public String hello() {
+			return "Test harsha";
+		}
+		
+	}
+	
 }
