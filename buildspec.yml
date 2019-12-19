@@ -11,11 +11,12 @@ phases:
       - echo pre_build
   build:
     commands:
-      - mvn package
+      - mvn clean prepare-package war:exploded
       - echo build
   post_build:
     commands:
       - echo post_build  
+      - mv target/demo ./
 artifacts:
   files:
-     - target/demo-0.0.1-SNAPSHOT.war
+     - demo/**/*

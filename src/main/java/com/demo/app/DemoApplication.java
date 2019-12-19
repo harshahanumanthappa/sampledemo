@@ -19,7 +19,7 @@ public class DemoApplication
 	{	
 		@GetMapping
 		public String hello() {
-			return "Hello harshas";
+			return "Hello harsha!!! how are you";
 		}
 		
 	}
@@ -30,7 +30,7 @@ public class DemoApplication
 	{	
 		@GetMapping
 		public String hello() {
-			return "Test harsha";
+			return "Test harsha!!!! working fine";
 		}
 		
 	}
