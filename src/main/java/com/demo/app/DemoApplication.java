@@ -19,7 +19,7 @@ public class DemoApplication
 	{	
 		@GetMapping
 		public String hello() {
-			return "Hello harsha!!! how are you....";
+			return "Hello harsha!!! how are you???";
 		}
 		
 	}
