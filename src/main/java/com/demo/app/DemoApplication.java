@@ -28,7 +28,7 @@ public class DemoApplication
 	public class HelloController 
 	{	
 		@GetMapping
-		public String test() {
+		public String hello() {
 			return "Hellos test!!! how are you...";
 		}
 	}
