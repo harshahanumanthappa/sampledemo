@@ -25,10 +25,10 @@ public class DemoApplication
 	
 	@RestController
 	@RequestMapping("/test")
-	public class HelloController 
+	public class TestController 
 	{	
 		@GetMapping
-		public String hello() {
+		public String test() {
 			return "Hellos test!!! how are you...";
 		}
 	}
