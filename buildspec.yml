@@ -16,7 +16,7 @@ phases:
   post_build:
     commands:
       - echo post_build  
-      - mv target/demo ./
+      - mv target/demoo ./
 artifacts:
   files:
-     - demo/**/*
+     - demoo/**/*
