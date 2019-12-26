@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo.app</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>demoo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<name>demo</name>
@@ -57,7 +57,7 @@
 					<execution>
 						<id>war-exploded</id>
 						<configuration>
-							<webappDirectory>target/demo</webappDirectory>
+							<webappDirectory>target/demoo</webappDirectory>
 							<archiveClasses>true</archiveClasses>
 						</configuration>
 						<phase>prepare-package</phase>
