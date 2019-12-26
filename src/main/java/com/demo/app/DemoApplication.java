@@ -21,29 +21,16 @@ public class DemoApplication
 		public String hello() {
 			return "Hello harsha!!! how are you...";
 		}
-		
 	}
 	
 	@RestController
 	@RequestMapping("/test")
-	public class TestController 
+	public class HelloController 
 	{	
 		@GetMapping
-		public String hello() {
-			return "Test harsha!!!! working fine.....";
+		public String test() {
+			return "Hellos test!!! how are you...";
 		}
-		
-	}
-	
-	@RestController
-	@RequestMapping("/sample")
-	public class TestController 
-	{	
-		@GetMapping
-		public String hello() {
-			return "Test Sample!!!! working fine.....";
-		}
-		
 	}
 	
 }
